@@ -178,3 +178,92 @@ nav a:first-child{
     object-fit: cover;
 }
 /* hero section end here*/
+
+/* service section */
+.service{
+    max-width: 1170px;
+    margin: 0 auto;
+   
+}
+.service-header{
+    display: flex;
+    flex-direction: column;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    align-items: center;
+    gap: 18px;
+}
+.service-header h4{
+    font-size: 14px;
+    line-height: 28.5px;
+    color: #8A898E;
+    letter-spacing: 5px;
+    
+}
+.service-header h2{
+    font-size: 52px;
+    line-height: 28.5px;
+    color: #0B1B35;
+    
+}
+.service-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    
+}
+.service-cards .card{
+   width: 352px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+   box-shadow: 0 2.77px #00000007;
+   border: 1px solid #E0E0E0;
+   padding: 41px;
+   border-radius: 28px;
+}
+
+.service-cards .card img{
+    width: 76.47px;
+    height: 76.47px;
+    object-fit: cover;
+}
+
+.service-cards .card h3{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 36px;
+    line-height: 28.5px;
+    color: #000000;
+   
+}
+.service-cards .card p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28.5px;
+    color: #000000;
+    text-align: center;
+   
+}
+.service-cards .card button{
+    width: 162px;
+    height: 49px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: medium;
+    line-height: 28.5px;
+    border: none;
+    background: #FF6600;
+    color: #FFFFFF;
+}
+
+.card{
+    
+}
