@@ -328,19 +328,19 @@ nav a:first-child{
     max-width: 970px;
     margin: 0 auto;
 }
-.testimonial-header{
+.testimonial-header, .team-header{
     text-align: center;
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: regular;
 }
-.testimonial-header h4{
+.testimonial-header h4, .team-header h4{
     font-size: 14px;
     line-height: 28.5px;
     color: #8A898E;
     letter-spacing: 5px;
 }
-.testimonial-header h2{
+.testimonial-header h2, .team-header h2{
     font-size: 52px;
     line-height: 28.5px;
     color: #0B1B35;
@@ -393,4 +393,71 @@ nav a:first-child{
     color: #0B1B35;
     text-decoration: uppercase;
     letter-spacing: 2px;
+}
+
+/* team section start here */
+
+.team-section{
+    max-width: 1170px;
+    margin: 181.01px auto;
+}
+
+.team-body{
+    margin-top: 101px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.team-card{
+    border: 1px solid #EBEAED;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28.8px;
+    padding: 50px 0;
+}
+.card-wrapper div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16.8px;
+}
+.card-wrapper img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.card-wrapper h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1E0E62;
+}
+.card-wrapper span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #151439;
+}
+.card-box-container{
+   display: flex;
+   align-items: center;
+   border-top: 1px solid #EBEAED;
+   border-bottom: 1px solid #EBEAED;
+}
+.card-box-container .card-box{
+    flex: 1;
+    height: 60.5px;
+    
+}
+
+.card-box-container .card-box:nth-child(2){
+    border-left: 1px solid #EBEAED;
+    border-right: 1px solid #EBEAED;
 }
