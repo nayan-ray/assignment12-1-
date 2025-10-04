@@ -328,19 +328,19 @@ nav a:first-child{
     max-width: 970px;
     margin: 0 auto;
 }
-.testimonial-header, .team-header{
+.testimonial-header, .team-header, .newsletter-header{
     text-align: center;
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: regular;
 }
-.testimonial-header h4, .team-header h4{
+.testimonial-header h4, .team-header h4, .newsletter-header h4{
     font-size: 14px;
     line-height: 28.5px;
     color: #8A898E;
     letter-spacing: 5px;
 }
-.testimonial-header h2, .team-header h2{
+.testimonial-header h2, .team-header h2, .newsletter-header h2{
     font-size: 52px;
     line-height: 28.5px;
     color: #0B1B35;
@@ -460,4 +460,74 @@ nav a:first-child{
 .card-box-container .card-box:nth-child(2){
     border-left: 1px solid #EBEAED;
     border-right: 1px solid #EBEAED;
+}
+
+/* newsletter */
+.newsletter{
+    max-width: 1170px;
+    margin: 0 auto;
+   
+}
+.newsletter-body{
+    margin-top: 101px;
+    display: flex;
+    
+    gap: 49px;
+}
+.newsletter-body-left{
+    width: 421px;
+    height: 367px;
+    
+}
+.newsletter-body-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+.newsletter-body-right p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.5px;
+    font-style: regular;
+    color: #000000;
+    text-align: start;
+}
+.newsletter-body-right input{
+    width: 100%;
+    height: 49px;
+    border: 1px solid #000000;
+     border-radius: 49px;
+     background-color: #FFFFFF;
+     padding: 24px 67px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.5px;
+    font-style: regular;
+    color: #000000;
+}
+.newsletter-body-right input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.5px;
+    font-style: regular;
+    color: #000000;
+   
+}
+
+.newsletter-body-right button{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.5px;
+    border-radius: 10px;
+    background: #FF6600;
+    border: none;
+    color: #FFFFFF;
+    height: 49px;
 }
